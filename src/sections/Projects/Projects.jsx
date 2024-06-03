@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import gemini from '../../assets/gemini.png';
+import social from '../../assets/social.png';
+import keepNotes from '../../assets/keepNotes.jpeg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,29 +10,29 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={gemini}
+          link="https://github.com/vsakshi29/GeminiClone"
+          h3="gemini"
+          p="Gemini Clone"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          src={social}
+          link="https://github.com/vsakshi29/SocialSync"
           h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          p="Social Sync"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={keepNotes}
+          link=" https://github.com/vsakshi29/To-Do-List"
+          h3="Keep Notes"
+          p="To DO List App"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={fitLift}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="FitLift"
           p="Fitness App"
-        />
+        /> */}
       </div>
     </section>
   );
